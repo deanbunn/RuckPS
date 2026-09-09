@@ -1,0 +1,22 @@
+# Secret Management (Never commit secrets!)
+# ---------------------------------------------
+*.ps1.secret
+*.key
+*.pfx
+*.cer
+
+# PowerShell Package Management & Dependencies
+# ---------------------------------------------
+# Module dependencies downloaded locally
+/Modules/
+/packages/
+/.ionide/
+
+# If you use cross-platform PowerShell (pwsh) or .NET CLI
+# ---------------------------------------------
+bin/
+obj/
+project.lock.json
+.vs/
+.vscode/
+.idea.powershell/
